@@ -9,6 +9,11 @@
  margin: auto;
  width: 100%;
 }
+/* imagen de fondo */
+.divname {
+ background-image: url(../imagenes/imagen_header.jpg);
+ background-size: cover;
+}
 .bigtitle_section_container {
  display: flex;
  justify-content: center;
