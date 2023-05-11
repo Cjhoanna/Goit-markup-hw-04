@@ -135,17 +135,38 @@
  font-size: 16px;
  line-height: 19px;
 }
-.our_team_social_media {
- display: inline;
- color: #f5f4fa;
+.icon {
  width: 20px;
  height: 20px;
+ fill: #afb1b8;
+}
+.our_team_icons {
+ display: flex;
+ justify-content: center;
+}
+.our_team_icon {
+ list-style: none;
+ width: 44px;
+ height: 44px;
+}
+.our_team_social {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width: 100%;
+ height: 100%;
  border-radius: 50%;
- margin: 10px;
 }
-.our_team_social_media:hover {
+.our_team_icons .our_team_social:hover,
+.our_team_icons .our_team_social:focus {
  background-color: #2196f3;
+ border-radius: 45px;
 }
+.our_team_social:hover .icon,
+.our_team_social:focus .icon {
+ fill: #ffffff;
+}
+
 .svg_company {
  display: flex;
  list-style: none;
@@ -165,6 +186,19 @@
  margin: 94px auto;
 }
 .border_customers_inline:hover {
- background-color: #2196f3;
- border: #ffffff;
+ background: #ffffff;
+ border-color: #2196f3;
+}
+.footer_social_media {
+ display: inline-block;
+ justify-content: center;
+ position: relative;
+ width: 50px;
+ height: 50px;
+ border-radius: 50%;
+ margin: 10px;
+}
+.footer_social_media:hover {
+ background: #2196f3;
+ border-color: #ffffff;
 }
