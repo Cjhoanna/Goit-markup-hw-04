@@ -44,7 +44,7 @@
  list-style: none;
  display: flex;
  justify-content: space-between;
- align-items: center;
+ align-items: flex-start;
  letter-spacing: 0.03em;
  border: 2px;
  width: 1200px;
@@ -181,11 +181,13 @@
 .border_customers_inline {
  border: 1px solid #afb1b8;
  border-radius: 4px;
+ display: flex;
  width: 170px;
  height: 92px;
  margin: 94px auto;
 }
-.border_customers_inline:hover {
+.border_customers_inline:hover,
+.border_customers_inline:focus {
  background: #ffffff;
  border-color: #2196f3;
 }
