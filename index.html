@@ -17,16 +17,21 @@
     <link rel="stylesheet" href="CSS/index.css" type="text/css" />
     <title>WEB ESTUDIO</title>
   </head>
-  <body>
     <header class="header_section">
         <div class="header_container container">
           <a href="index.html" class="header_link_style main_title">WEB ESTUDIO</a>
           <a href="studio.html" class="header_link_style subtitle">studio</a>
           <a href="portafolio.html" class="header_link_style subtitle">portfolio</a>
           <a href="contacts.html" class="header_link_style subtitle">contacts</a>
-          <a class="header_link_style subtitle" href=""><img src="./imagenes/svg/sobre.svg"> info@devstudio.com </a>
-          <a class="header_link_style subtitle" href=""><img src="./imagenes/svg/teléfono inteligente.svg"> +1 212-772-4150 </a>
-        </div>
+          <svg class="header_svg">
+            <use href="./imagenes/svg/sprite.svg#icon-sobre"></use> 
+          </svg>
+          <a class="header_link_style subtitle" href="">info@devstudio.com</a>
+          <svg class="header_svg">
+            <use href="./imagenes/svg/sprite.svg#icon-telfono-inteligente"></use> 
+          </svg>
+              <a class="header_link_style subtitle" href=""> +1 212-772-4150 </a>
+          </div>
     </header>
     <main>
       <section class="bigtitle_section_page divname">
@@ -38,11 +43,11 @@
     </div>
     <section class="container">
       <ul class="section_list conteiner">
-        <li class="section_list_item">
-          <div class="section_list_image">
-            <img class="svg"
-              src="./imagenes/svg/antena.svg"> 
-          </div>
+        <li class="section_list_item container ">
+   
+          <svg class="section_list_image container">
+            <use href="./imagenes/svg/sprite.svg#icon-antena"> 
+          </svg>
           <div>
             <h4 class="section_title">ATTENTION TOO DETAILS</h4>
             <p class="text_list">
@@ -52,10 +57,9 @@
           </div>
           </li>
           <li>
-            <div class="section_list_image">
-              <img class="svg"
-              src="./imagenes/svg/reloj.svg"> 
-            </div>
+            <svg class="section_list_image">
+                <use href="./imagenes/svg/sprite.svg#icon-reloj"> 
+            </svg>
             <div>
               <h4 class="section_title">PUNCTUALITY</h4>
               <p class="text_list">
@@ -65,10 +69,9 @@
             </div>
           </li>
           <li>
-            <div class="section_list_image">
-              <img class="svg"
-              src="./imagenes/svg/diagrama.svg"> 
-            </div>
+            <svg class="section_list_image">
+              <use href="./imagenes/svg/sprite.svg#icon-diagrama"> 
+            </svg>
             <div>
               <h4 class="section_title">PLANNING</h4>
               <p class="text_list">
@@ -78,10 +81,9 @@
             </div>
           </li>
           <li>
-            <div class="section_list_image">
-              <img class="svg"
-              src="./imagenes/svg/astronauta.svg"> 
-            </div>
+            <svg class="section_list_image">
+              <use href="./imagenes/svg/sprite.svg#icon-astronauta"> 
+            </svg>
             <div>
               <h4 class="section_title">MODERM TECHNOLOGIES</h4>
               <p class="text_list">
@@ -92,9 +94,9 @@
           </li>
         </ul>
       </section>
-      <section class="what_we_do container">
+      <section class="what_we_do ">
         <h2>What we do</h2>
-        <div class="footer_imagin">
+        <div class="main_imagin">
           <img
             src="./imagenes/imagen1.jpg"
             alt="innovacion"
@@ -112,8 +114,8 @@
           />
         </div>
       </section>
-      <section class="our_team">
-        <div class="footer_imagin container">
+      <section class="our_team container">
+        <div class="main_imagin container">
           <h2>Our Team</h2>
           <ul class="our_team_card">
             <li class="footer_text_container">
@@ -271,54 +273,75 @@
       </section>
       <section>
         <a class="title_regular_customers">regular customers</a>
-        <ul class="svg_company border_customers_inline:hover">
+        <ul class="svg_company border_customers_inline:hover ">
           <li>
-            <div class="border_customers_inline">
-              <img src="./imagenes/svg/va y co.svg">
+            <div class="border_customers_inline ">
+              <svg class="company01">
+                <use href="./imagenes/svg/sprite.svg#icon-va-y-co">
+                </use>
+              </svg>
             </div>
           </li>
            <li>
-            <div class="border_customers_inline">
-              <img src="./imagenes/svg/company.svg">
+            <div class="border_customers_inline ">
+              <svg class="company01">
+                <use href="./imagenes/svg/sprite.svg#icon-company">
+                </use>
+              </svg>
             </div>
            </li>
            <li>
             <div class="border_customers_inline">
-             <img src="./imagenes/svg/companyfruta.svg">
+             <svg class="company01">
+              <use href="./imagenes/svg/sprite.svg#icon-companyfruta">
+              </use>
+            </svg>
             </div>
            </li>
            <li>
             <div class="border_customers_inline">
-             <img src="./imagenes/svg/foster.svg">
+              <svg class="company01">
+                <use href="./imagenes/svg/sprite.svg#icon-brand">
+                </use>"
+              </svg>
             </div>
            </li>
            <li>
             <div class="border_customers_inline">
-             <img src="./imagenes/svg/brand.svg">
+              <svg class="company01">
+                <use href="./imagenes/svg/sprite.svg#icon-foster">
+                </use>"
+              </svg>
             </div>
            </li>
            <li>
             <div class="border_customers_inline">
-             <img src="./imagenes/svg/companytag.svg">
+              <svg class="company01">
+                <use href="./imagenes/svg/sprite.svg#icon-companytag">
+                </use>"
+              </svg>">
             </div>
            </li>
        </ul>
        </section>
     </main>
     <footer>
-      <section class="footer_section">
-        <div class="footer_container container">
-          <h2>WebStudio</h2>
-          <address>
-            <p class="footer_address_paragraph">
-              <a class="footer_address">695 Park Ave, NY 10065,USA</a>
-            </p>
-            <p class="footer_address_paragraph">
-              <a class="footer_email" href="info@devstudio.com">info@devstudio.com</a>
-            </p>
-            <p class="footer_address_paragraph">
-              <a class="footer_number" href="">+1 212-772-4150</a>
-            </p>
+      <div class="footer_section">
+          <aside class="footer_container container">
+            <h2>WebStudio</h2>
+            <address>
+              <p class="footer_address_paragraph">
+                <a class="footer_address">695 Park Ave, NY 10065,USA</a>
+              </p>
+              <p class="footer_address_paragraph">
+                <a class="footer_email" href="info@devstudio.com">info@devstudio.com</a>
+              </p>
+              <p class="footer_address_paragraph">
+                <a class="footer_number" href="">+1 212-772-4150</a>
+              </p>
+            </address>
+          </aside>
+
             <ul class="our_team_icons">
               <li class="our_team_icon">
                 <a  class="our_team_social" href="#">
@@ -349,9 +372,7 @@
                 </a>
               </li>
             </ul>
-          </address>
-        </div>
-      </section>
+      </div>
     </footer>
   </body>
 </html>
