@@ -8,22 +8,46 @@
       <link rel="preconnect" href="https://fonts.gostatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700;900&display=swap" rel="stylesheet"
       >
-      <link rel="stylesheet" href="CSS/portafolio.css" type="text/css">
-      <link rel="stylesheet" href="CSS/compartidos.css" type="text/css">
+      <link rel="stylesheet" href="./CSS/compartidos.css" type="text/css">
+      <link rel="stylesheet" href="./CSS/portafolio.css" type="text/css">
       <title>portafolio</title>
   </head>
   <body>
-    <header class="header_border">
-      <section>
-        <div class="header_line">
-          <a href="index.html" class="link_style main_title">WEB ESTUDIO</a>
-          <a href="#"class="link_style subtitle">studio</a>
-          <a href="portafolio.html"class="link_style subtitle">portfolio</a>
-          <a href="#"class="link_style subtitle">contacts</a>
-          <a class="link_style subtitle" href=""><img src="./imagenes/svg/sobre.svg">info@devstudio.com</a>
-          <a class="link_style subtitle" href=""><img src="./imagenes/svg/teléfono inteligente.svg">+52 55 5529 6000</a>
+  <header class="header_section">
+        <div class="header_container container">
+          <nav class="menu">
+            <a class="logo" href="index.html">WEBSTUDIO</a>
+            <ul class="menu_list">
+              <li>
+                <a href="studio.html" class="menu_link">studio</a>
+              </li>
+              <li>
+                <a href="portafolio.html" class="menu_link">portfolio</a>
+              </li>
+              <li>
+                <a href="contacts.html" class="menu_link">contacts</a>
+              </li>
+            </ul>
+          </nav>
+          <ul class="contact_list">
+            <li>
+              <a class=" contact_link" href="mailto:info@devstudio.com">
+                <svg class="header_svg">
+                  <use href="./imagenes/svg/sprite.svg#icon-sobre"></use> 
+                </svg>
+                info@devstudio.com
+              </a>
+            </li>
+            <li>
+              <a class="contact_link" href="tel:+1 212-772-4150"> 
+                <svg class="header_svg">
+                  <use href="./imagenes/svg/sprite.svg#icon-telfono-inteligente"></use> 
+                </svg>
+                +1 212-772-4150
+              </a>
+            </li>
+          </ul>
         </div>
-      </section>
     </header>
     <main class="main_portafolio">
       <section class="main_portafolio_section">
@@ -35,7 +59,7 @@
         <button class="nav_button" type="button">Marketing</button>
       </nav>
         <ul class="main_imagin conteiner our_team_card">
-          <li class="card">
+          <li class="card card:hover">
               <img class="card-imagin"
               src="./imagenes/portafolio1.jpg"
               alt="comunicación"
@@ -120,24 +144,59 @@
       </ul>
   </section>
 </main>
-<footer>
-  <section class="footer_section">
-    <div class="footer_container container">
-      <h2>WebStudio</h2>
-      <address>
-        <p class="footer_address_paragraph">
-          <a class="footer_address">695 Park Ave, NY 10065,USA</a>
-        </p>
-        <p class="footer_address_paragraph">
-          <a class="footer_email" href="info@devstudio.com">info@devstudio.com</a>
-        </p>
-        <p class="footer_address_paragraph">
-          <a class="footer_number" href="">+1 212-772-4150</a>
-        </p>
-      </address>
-    </div>
-  </section>
-</footer>
+ <footer class="footer_section">
+          <aside class="footer_container container">
+            <div class="footer_logo_address">
+            <a class="logo" href="index.html">WEBSTUDIO</a>
+            <address>
+             <ul class="footer_address_paragraph">
+                <li>
+                  <a class="footer_address">695 Park Ave, NY 10065,USA</a>
+                </li>
+              <li>
+                <a class="footer_email" href="info@devstudio.com">info@devstudio.com</a>
+              </li>
+              <li>
+                <a class="footer_number" href="">+1 212-772-4150</a>
+              </li>
+             </ul>
+            </address>
+            </div>
+            <div class="footer_social">
+              <h2 class="aside_footer_title">find us on</h2>
+              <ul class="our_team_icons">
+                <li class="our_team_icon">
+                  <a  class="our_team_social" href="#">
+                    <svg class="icon">
+                      <use href="./imagenes/svg/sprite.svg#icon-instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="our_team_icon">
+                  <a  class="our_team_social" href="#">
+                    <svg class="icon">
+                      <use href="./imagenes/svg/sprite.svg#icon-twitter"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="our_team_icon">
+                  <a  class="our_team_social" href="#">
+                    <svg class="icon">
+                      <use href="./imagenes/svg/sprite.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="our_team_icon">
+                  <a  class="our_team_social" href="#">
+                    <svg class="icon">
+                      <use href="./imagenes/svg/sprite.svg#icon-linkedin"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </aside>
+    </footer>
 </body>
 </html>
 
