@@ -41,7 +41,8 @@ ul {
   font-size: 14px;
   line-height: 16px;
 }
-.subtitle:hover {
+.subtitle:hover,
+.subtitle:focus {
   color: #2196f3;
 }
 .link_style {
@@ -68,7 +69,8 @@ ul {
   color: #212121;
   border: 0;
 }
-.nav_button:hover {
+.nav_button:hover,
+.nav_button:focus {
   background-color: #2196f3;
   color: #f4f7fa;
 }
@@ -88,7 +90,8 @@ ul {
   border: 1px solid #eeeeee;
   border-radius: 0px 0px 4px 4px;
 }
-.card:hover {
+.card:hover,
+.card:focus {
   border: 1px solid #2196f3;
   cursor: pointer;
 }
