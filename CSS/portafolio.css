@@ -90,6 +90,20 @@ ul {
   border: 1px solid #eeeeee;
   border-radius: 0px 0px 4px 4px;
 }
+.card_title {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+}
+.card_body {
+  padding: 20px 24px;
+  padding-top: 20px;
+  padding-right: 24px;
+  padding-bottom: 20px;
+  padding-left: 24px;
+}
 .card:hover,
 .card:focus {
   border: 1px solid #2196f3;
